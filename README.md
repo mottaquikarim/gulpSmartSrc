@@ -6,6 +6,8 @@ Ideal use case: for creating a libs-bundle.js file for external dependencies suc
 
 #### Usage
 
+In your gulpfile.js
+
 ```javascript
 var gulp = require('gulp');
 var concat = require('gulp-concat');
@@ -27,5 +29,11 @@ gulp.task('foo', function() {
 });
 
 ```
+In terminal
+
+```bash
+gulp foo
+```
+
 
 Inspired by: https://github.com/Metrime/gulp-download/blob/master/index.js
